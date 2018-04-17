@@ -1,7 +1,9 @@
+/* eslint-disable max-len */
 import React, { Component } from 'react';
+import { Container } from 'semantic-ui-react';
 
-export default class Index extends Component {
-  render() {
-    return <div>Hello</div>;
-  }
-}
+import FormExample from '../components/FormExample';
+
+const Index = () => <FormExample />;
+
+export default Index;
