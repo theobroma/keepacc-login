@@ -15,7 +15,7 @@ const FormExample = () => (
               iconPosition="left"
               placeholder="E-mail address"
               type="text"
-              autocomplete="username email"
+              autoComplete="username email"
             />
           </Form.Field>
           <Form.Field>
@@ -24,7 +24,7 @@ const FormExample = () => (
               iconPosition="left"
               placeholder="Password"
               type="password"
-              autocomplete="current-password"
+              autoComplete="current-password"
             />
           </Form.Field>
           <Button type="submit" color="teal" size="large" fluid>
