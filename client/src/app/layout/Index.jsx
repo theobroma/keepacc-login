@@ -24,7 +24,12 @@ const Protected = () => <h3>Protected Page</h3>;
 
 class Login extends Component {
   render() {
-    return <FormExample />;
+    return (
+      <div>
+        <h2>Unauthenticated</h2>
+        <FormExample />
+      </div>
+    );
   }
 }
 

@@ -1,0 +1,31 @@
+{
+  "name": "Keepacc-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "scripts": {
+    "dev": "concurrently \"cd server && npm start\" \"cd client && npm start \"",
+    "build": "cd client && npm run build",
+    "install": "(cd server && npm install) && (cd client && npm install)",
+    "start:prod": "cd server && npm run start:prod",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theobroma/keepacc-login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theobroma/keepacc-login/issues"
+  },
+  "homepage": "https://github.com/theobroma/keepacc-login#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
